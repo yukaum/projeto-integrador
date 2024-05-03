@@ -1,0 +1,61 @@
+.button {
+    background-color: transparent;
+    border: 0 none;
+    outline: 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.icon {
+    padding-right: 5px;
+}
+
+.icon-search {
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.button.primary {
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    width: 97%;
+    height: 3em;
+    text-align: left;
+    padding: 15px;
+
+    &:hover {
+        background-color: #26E0E0;
+    }
+
+    &.active {
+        background-color: #26E0E0;
+    }
+}
+
+button.btn-header {
+    font-family: "Major Mono Display", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: #FFB801;
+    text-transform: capitalize;
+    height: 100%;
+}
+
+button.search {
+    height: 40px;
+    width:40px;
+    padding: 0px;
+    border-radius: 10px;
+    background-color: #D9D4D4;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
