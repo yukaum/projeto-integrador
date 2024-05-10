@@ -1,0 +1,501 @@
+{
+    "fornecedores": [
+        {
+            "razao": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "cnpj": "65.838.344/0001-10",
+            "rua": "Rua Serra da Borborema, 40",
+            "bairro": "Campanário",
+            "cidade": "Diadema",
+            "estado": "SP",
+            "telefone": "(11) 4057-9200",
+            "cep": "06703-790"
+        },
+        {
+            "razao": "LabSynth Produtos para Laboratório Ltda",
+            "cnpj": "51.462.471/0001-52",
+            "rua": "Av. Doutor Ulysses Guimarães, 3857",
+            "bairro": "Vila Nogueira",
+            "cidade": "Diadema",
+            "estado": "SP",
+            "telefone": "(11) 4072-6100",
+            "cep": "09990-080"
+        },
+        {
+            "razao": "Sigma Aldrich",
+            "cnpj": "68.337.658/0001-27",
+            "rua": "Rua Torre Eifel, 100 - Galpão 2",
+            "bairro": "Parque Rincão",
+            "cidade": "Cotia",
+            "estado": "SP",
+            "telefone": "(11) 3732-3100",
+            "cep": "06705-481"
+        }
+    ],
+    "transportadoras": [
+        {
+            "razao": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "cnpj": "65.838.344/0001-10",
+            "rua": "Rua Serra da Borborema, 40",
+            "bairro": "Campanário",
+            "cidade": "Diadema",
+            "estado": "SP",
+            "telefone": "(11) 4057-9200",
+            "cep": "06703-790"
+        },
+        {
+            "razao": "LabSynth Produtos para Laboratório Ltda",
+            "cnpj": "51.462.471/0001-52",
+            "rua": "Av. Doutor Ulysses Guimarães, 3857",
+            "bairro": "Vila Nogueira",
+            "cidade": "Diadema",
+            "estado": "SP",
+            "telefone": "(11) 4072-6100",
+            "cep": "09990-080"
+        },
+        {
+            "razao": "Sigma Aldrich",
+            "cnpj": "68.337.658/0001-27",
+            "rua": "Rua Torre Eifel, 100 - Galpão 2",
+            "bairro": "Parque Rincão",
+            "cidade": "Cotia",
+            "estado": "SP",
+            "telefone": "(11) 3732-3100",
+            "cep": "06705-481"
+        }
+    ],
+    "entradas": [
+        {
+            "identificação": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "validade": "65.838.344/0001-10",
+            "casnumber": "Rua Serra da Borborema, 40",
+            "ncm": "Campanário",
+            "classificacao": "Diadema",
+            "dataEntrada": "22/22/22",
+            "quantidadeEntrada": "SP",
+            "unidade": "(11) 4057-9200",
+            "valorUnidade": "06703-790",
+            "valorCompra": "06703-790",
+            "marca": "06703-790",
+            "lote": "sfsafsf",
+            "motivo": "analises",
+            "nf": "2132321"
+        },
+        {
+            "identificação": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "validade": "65.838.344/0001-10",
+            "casnumber": "Rua Serra da Borborema, 40",
+            "ncm": "Campanário",
+            "classificacao": "Diadema",
+            "dataEntrada": "22/22/22",
+            "quantidadeEntrada": "SP",
+            "unidade": "(11) 4057-9200",
+            "valorUnidade": "06703-790",
+            "valorCompra": "06703-790",
+            "marca": "06703-790",
+            "lote": "sfsafsf",
+            "motivo": "analises",
+            "nf": "2132321"
+        },
+        {
+            "identificação": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "validade": "65.838.344/0001-10",
+            "casnumber": "Rua Serra da Borborema, 40",
+            "ncm": "Campanário",
+            "classificacao": "Diadema",
+            "dataEntrada": "22/22/22",
+            "quantidadeEntrada": "SP",
+            "unidade": "(11) 4057-9200",
+            "valorUnidade": "06703-790",
+            "valorCompra": "06703-790",
+            "marca": "06703-790",
+            "lote": "sfsafsf",
+            "motivo": "analises",
+            "nf": "2132321"
+        }
+    ],
+    "saidas": [
+        {
+            "identificação": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "Rua Serra da Borborema, 40",
+            "ncm": "Campanário",
+            "classificacao": "Diadema",
+            "dataEntrada": "22/22/22",
+            "quantidadeSaida": "SP",
+            "unidade": "(11) 4057-9200",
+            "valorUnidade": "06703-790",
+            "valorCompra": "06703-790",
+            "marca": "06703-790",
+            "lote": "sfsafsf",
+            "motivo": "analises"
+        },
+        {
+            "identificação": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "Rua Serra da Borborema, 40",
+            "ncm": "Campanário",
+            "classificacao": "Diadema",
+            "dataEntrada": "22/22/22",
+            "quantidadeSaida": "SP",
+            "unidade": "(11) 4057-9200",
+            "valorUnidade": "06703-790",
+            "valorCompra": "06703-790",
+            "marca": "06703-790",
+            "lote": "sfsafsf",
+            "motivo": "analises"
+        },
+        {
+            "identificação": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "Rua Serra da Borborema, 40",
+            "ncm": "Campanário",
+            "classificacao": "Diadema",
+            "dataEntrada": "22/22/22",
+            "quantidadeSaida": "SP",
+            "unidade": "(11) 4057-9200",
+            "valorUnidade": "06703-790",
+            "valorCompra": "06703-790",
+            "marca": "06703-790",
+            "lote": "sfsafsf",
+            "motivo": "analises"
+        }
+    ],
+    "materiais": [
+        {
+            "nome": "Cafeína",
+            "casnumber": "Rua Serra da Borborema, 40",
+            "ncm": "Campanário",
+            "classificacao": "Diadema",
+            "unidade": "22/22/22",
+            "estoqueMin": "SP",
+            "programada": "(11) 4057-9200",
+            "exercito": "06703-790",
+            "policiaFederal": "06703-790",
+            "policiaCivil": "06703-790",
+            "quantidadePC": "sfsafsf"
+        },
+        {
+            "nome": "Cafeína",
+            "casnumber": "Rua Serra da Borborema, 40",
+            "ncm": "Campanário",
+            "classificacao": "Diadema",
+            "unidade": "22/22/22",
+            "estoqueMin": "SP",
+            "programada": "(11) 4057-9200",
+            "exercito": "06703-790",
+            "policiaFederal": "06703-790",
+            "policiaCivil": "06703-790",
+            "quantidadePC": "sfsafsf"
+        },
+        {
+            "nome": "Cafeína",
+            "casnumber": "Rua Serra da Borborema, 40",
+            "ncm": "Campanário",
+            "classificacao": "Diadema",
+            "unidade": "22/22/22",
+            "estoqueMin": "SP",
+            "programada": "(11) 4057-9200",
+            "exercito": "06703-790",
+            "policiaFederal": "06703-790",
+            "policiaCivil": "06703-790",
+            "quantidadePC": "sfsafsf"
+        }
+    ],
+    "estoque": [
+        {
+            "material": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Acido Sulfurico",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Cafeína",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "não"
+        },
+        {
+            "material": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Acido Sulfurico",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Cafeína",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "não"
+        },
+        {
+            "material": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Acido Sulfurico",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Cafeína",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "não"
+        },
+        {
+            "material": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Acido Sulfurico",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Cafeína",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "não"
+        },
+        {
+            "material": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Acido Sulfurico",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Cafeína",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "não"
+        },
+        {
+            "material": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Acido Sulfurico",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Cafeína",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "não"
+        },
+        {
+            "material": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Acido Sulfurico",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Cafeína",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "não"
+        },
+        {
+            "material": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Acido Sulfurico",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Cafeína",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "não"
+        },
+        {
+            "material": "Alpax Comércio de Produtos para Laboratórios Ltda",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Acido Sulfurico",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "sim"
+        },
+        {
+            "material": "Cafeína",
+            "casnumber": "21412421423424",
+            "ncm": "Campanário",
+            "classificacao": "Reagente",
+            "entrada": "8",
+            "saida": "3",
+            "estoque": "5",
+            "permitido": "não",
+            "limite": "não"
+        }
+    ]
+}
+

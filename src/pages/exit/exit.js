@@ -1,30 +1,28 @@
 import data from '../../basededados.json';
 
-import { useEffect, useState } from "react";
-import { useNavigate, useLocation } from 'react-router-dom';
-import "./purchase.css";
 import SideMenu from "../../components/side_menu/sideMenu";
 import Header from "../../components/header/header";
 import Search from "../../components/input search/search";
 import Button from "../../components/button/button";
 import Input from "../../components/input search/input";
-import PurchasedTable from "./purchase-table";
+import ExitList from "./exit-table";
+import { useEffect, useState } from "react";
+import { useNavigate, useLocation } from 'react-router-dom';
 
-const PurchasePage = () => {
+const ExitPage = () => {
 
-    const purchasedMaterial = data.estoque;
+    const exitMaterial = data.saidas;
 
     const [active, setActive] = useState("novo");
     const [purchase, setPurchase] = useState();
 
     function handleClick(e) {
-        // const button = e.target.textContent;
         const buttonValue = e.currentTarget.value;
         setActive(buttonValue);
     }
 
     function handleCleanForm() {
-        document.getElementById("purchase-form").reset();
+        document.getElementById("exit-form").reset();
     }
 
     function handleSubmit() {
@@ -40,7 +38,7 @@ const PurchasePage = () => {
                 <SideMenu />
                 <section className="main-container">
                     <div className="title-container">
-                        <h1 className="page-title">Compras</h1>
+                        <h1 className="page-title">Saídas</h1>
                     </div>
 
                     <div className="btn-container">
@@ -57,10 +55,10 @@ const PurchasePage = () => {
                                 </li>
                                 <li>
                                     <Button
-                                        children="Entradas"
+                                        children="Saídas"
                                         variant="secondary"
                                         onClick={(e) => handleClick(e)}
-                                        value="compras"
+                                        value="saidas"
                                         active={active}
                                     ></Button>
                                 </li>
@@ -72,7 +70,7 @@ const PurchasePage = () => {
 
                         {active === "novo" ? (
                             <>
-                                <form id="purchase-form">
+                                <form id="exit-form">
                                     <div className="field">
                                         <label>Identificação:</label>
                                         <Search variant="search-container nopad"></Search>
@@ -80,47 +78,37 @@ const PurchasePage = () => {
 
                                     <div className="field">
                                         <label>Quantidade:</label>
-                                        <Input className="small"></Input>
+                                        <Input
+                                            className="small">
+                                        </Input>
                                     </div>
 
                                     <div className="field">
-                                        <label>Validade:</label>
-                                        <Input placeholder="dd/mm/aa" className="small"></Input>
-
-                                        <label>Data Chegada:</label>
-                                        <Input placeholder="dd/mm/aa" className="small"></Input>
+                                        <label>Data Uso:</label>
+                                        <Input
+                                            placeholder="dd/mm/aa"
+                                            className="small">
+                                        </Input>
                                     </div>
 
                                     <div className="field">
                                         <label>Lote:</label>
-                                        <Input className="small"></Input>
-
-                                        <label>Marca:</label>
-                                        <Input className="small"></Input>
+                                        <Input
+                                            className="small">
+                                        </Input>
                                     </div>
 
+
                                     <div className="field">
-                                        <label>Nota Fiscal:</label>
-                                        <Input></Input>
+                                        <label>Marca:</label>
+                                        <Input
+                                            className="small">
+
+                                        </Input>
                                     </div>
 
                                     <div className="field">
                                         <label>Motivo:</label>
-                                        <Input></Input>
-                                    </div>
-
-                                    <div className="field">
-                                        <label>Preço R$:</label>
-                                        <Input></Input>
-                                    </div>
-
-                                    <div className="field">
-                                        <label>Fornecedor:</label>
-                                        <Input></Input>
-                                    </div>
-
-                                    <div className="field">
-                                        <label>Transportadora:</label>
                                         <Input></Input>
                                     </div>
                                 </form>
@@ -142,8 +130,8 @@ const PurchasePage = () => {
 
                         ) : (
                             <>
-                                <Search variant="search-container" classInput="search_input"></Search>
-                                <PurchasedTable list={purchasedMaterial}></PurchasedTable>
+                                <Search variant="search-container"></Search>
+                                <ExitList list={exitMaterial}></ExitList>
                             </>
                         )}
 
@@ -151,7 +139,7 @@ const PurchasePage = () => {
                 </section >
             </div >
         </>
-    );
-};
+    )
+}
 
-export default PurchasePage;
+export default ExitPage;

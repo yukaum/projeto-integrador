@@ -1,10 +1,15 @@
+import data from '../../basededados.json';
+
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
 import SideMenu from "../../components/side_menu/sideMenu";
 import Header from "../../components/header/header";
 import Search from "../../components/input search/search";
+import MaterialList from "./storage_item";
 
-const Storage = () => {
+const StoragePage = () => {
+
+  const storage = data.estoque;
 
   return (
     <>
@@ -19,13 +24,11 @@ const Storage = () => {
           <hr></hr>
 
           <div className="main">
-            <Search></Search>
+            <Search variant="search-container nopad"></Search>
 
-            <div className="spreadsheet">
+            <MaterialList list={storage}></MaterialList>
 
 
-
-            </div>
           </div>
         </section>
       </div>
@@ -33,4 +36,4 @@ const Storage = () => {
   );
 };
 
-export default Storage;
+export default StoragePage;

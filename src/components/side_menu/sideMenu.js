@@ -1,24 +1,23 @@
-import { useEffect, useState } from "react";
-import { useNavigate, useLocation } from 'react-router-dom';
 import "./sideMenu.css";
 import Button from "../button/button";
+import { useEffect, useState } from "react";
+import { useNavigate, useLocation } from 'react-router-dom';
 import { MdWarehouse } from "react-icons/md";
 import { IoExitOutline } from "react-icons/io5";
 import { HiClipboardDocumentList, HiInboxArrowDown } from "react-icons/hi2";
+import { RiArrowDropDownLine } from "react-icons/ri";
 
-const SideMenu = () => {
+const SideMenu = (props) => {
     const location = useLocation();
 
     useEffect(() => {
         setActive(location.pathname);
-        console.log("active: ", active)
     }, [location.pathname])
 
     const [active, setActive] = useState();
-
     const navigateTo = useNavigate();
 
-    return (
+       return (
         <>
             <section className="side-menu">
                 <div className="button-container">
@@ -53,14 +52,43 @@ const SideMenu = () => {
                     ></Button>
 
                     <Button
-                        variant="primary"
+                        variant="primary drop"
                         onClick={() => navigateTo("/cadastro")}
                         span="icon"
                         icon={<HiClipboardDocumentList />}
-                        children="cadastro"
+                        children= "cadastro"
                         value="/cadastro"
                         active={active}
                     ></Button>
+
+                    {active === "/cadastro" ? (
+                        <div className="button-container dropdown">
+                            <Button
+                                children="material"
+                                variant="tertiary"
+                                onClick={props.dropClick}
+                                value="material"
+                                active={props.dropdownActive}
+                            ></Button>
+
+                            <Button
+                                children="fornecedor"
+                                variant="tertiary"
+                                onClick={props.dropClick}
+                                value="fornecedor"
+                                active={props.dropdownActive}
+                            ></Button>
+
+                            <Button
+                                children="transportadora"
+                                variant="tertiary"
+                                onClick={props.dropClick}
+                                value="transportadora"
+                                active={props.dropdownActive}
+                            ></Button>
+
+                        </div>
+                    ) : (<></>)}
                 </div>
             </section >
         </>

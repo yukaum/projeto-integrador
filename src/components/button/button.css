@@ -18,7 +18,6 @@
 }
 
 .button.primary {
-    border-radius: 10px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
@@ -29,6 +28,7 @@
     height: 3em;
     text-align: left;
     padding: 15px;
+    position: relative;
 
     &:hover {
         background-color: #26E0E0;
@@ -51,7 +51,7 @@ button.btn-header {
 
 button.search {
     height: 40px;
-    width:40px;
+    width: 40px;
     padding: 0px;
     border-radius: 10px;
     background-color: #D9D4D4;
@@ -59,3 +59,111 @@ button.search {
     padding-top: 5px;
 }
 
+.button.secondary {
+    background-color: transparent;
+    color: #035E60;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    position: relative;
+    opacity: 0.5;
+    margin: 0px 15px 0px 0px;
+    letter-spacing: 1px;
+    width: 150px;
+    height: 30px;
+}
+
+.button.secondary::after {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #035E60;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.button.secondary.active {
+    opacity: 1;
+    font-weight: bold;
+}
+
+button.secondary:hover::after,
+button.secondary.active::after {
+    width: 100%;
+    opacity: 1;
+}
+
+.purple {
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    width: 150px;
+    height: 2.5em;
+    background-color: #6f5ca5;
+    color: #ffffff;
+    margin-right: 150px;
+}
+
+.tertiary {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    width: 100%;
+    height: 3em;
+    text-align: left;
+    padding: 15px 15px 15px 35px;
+    background-color: #3dd6d673;
+    color: #818181;
+
+    &:hover {
+        color: #6d6c6c;
+        font-weight: bold;
+    }
+
+    &.active {
+        color: #6d6c6c;
+        font-weight: bold;
+    }
+}
+
+.primary.drop::before {
+    content: "";
+    position: absolute;
+    top: 23px;
+    right: 28px;
+    width: 12px;
+    height: 2px;
+    background: #555;
+    z-index: 10;
+    transform: rotate(40deg);
+    transition: 0.5s;
+}
+
+.primary.drop::after {
+    content: "";
+    position: absolute;
+    top: 23px;
+    right: 20px;
+    width: 12px;
+    height: 2px;
+    background: #555;
+    z-index: 10;
+    transform: rotate(-40deg);
+    transition: 0.5s;
+}
+
+.primary.drop.active::before {
+    right: 20px;
+}
+
+.primary.drop.active:after {
+    right: 28px;
+}

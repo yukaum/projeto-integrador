@@ -1,0 +1,50 @@
+/* PAGINA CADASTRO MATERIAL */
+
+.select-scheduled {
+    height: 40px;
+    width: 130px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C7C7C7;
+    border-radius: 10px;
+    margin-left: 15px;
+    color: #5E5D5D;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 250;
+    font-family: "Work Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.register-material-form label {
+    width: 170px;
+}
+
+.long-label {
+    width: auto !important;
+
+}
+
+.checkbox-container {
+    width: auto;
+    display: flex;
+    /* flex-wrap: nowrap; */
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    align-items: center;
+    justify-content: space-evenly;
+
+    input {
+        width: 25px;
+    }
+
+    label {
+        margin-left: 0px;
+        width: auto;
+        margin-right: 50px;
+    }
+}
